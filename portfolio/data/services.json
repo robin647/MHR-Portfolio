@@ -1,0 +1,86 @@
+[
+  {
+    "id": "ai-chatbot",
+    "icon": "Bot",
+    "title": "AI Chatbot Development",
+    "description": "Custom chatbots trained on your data that answer support and sales questions around the clock.",
+    "features": ["RAG on your docs", "Human handoff", "Multi-channel deploy"]
+  },
+  {
+    "id": "django-backend",
+    "icon": "Server",
+    "title": "Django Backend Development",
+    "description": "Secure, scalable backends with clean data models and battle-tested Django conventions.",
+    "features": ["Auth & permissions", "Admin tooling", "Background jobs"]
+  },
+  {
+    "id": "rest-api",
+    "icon": "Plug",
+    "title": "REST API Development",
+    "description": "Well-documented APIs designed for the clients that will actually consume them.",
+    "features": ["OpenAPI docs", "Versioning", "Rate limiting"]
+  },
+  {
+    "id": "react-frontend",
+    "icon": "LayoutGrid",
+    "title": "React Frontend Development",
+    "description": "Fast, accessible interfaces built with React and Next.js that feel premium out of the box.",
+    "features": ["Component systems", "Responsive by default", "SEO ready"]
+  },
+  {
+    "id": "fullstack",
+    "icon": "Layers",
+    "title": "Full-Stack Web Apps",
+    "description": "End-to-end product builds — from database schema to deployed frontend.",
+    "features": ["Single point of ownership", "Rapid MVP delivery", "Ongoing support"]
+  },
+  {
+    "id": "whatsapp-automation",
+    "icon": "MessageSquare",
+    "title": "WhatsApp Automation",
+    "description": "Order updates, reminders, and support flows delivered where your customers already are.",
+    "features": ["Cloud API integration", "Template management", "Analytics"]
+  },
+  {
+    "id": "n8n-automation",
+    "icon": "Workflow",
+    "title": "n8n Automation",
+    "description": "Workflow automations that connect your tools and remove manual, repetitive work.",
+    "features": ["Custom nodes", "Error handling", "Scheduled workflows"]
+  },
+  {
+    "id": "openai-integration",
+    "icon": "Sparkles",
+    "title": "OpenAI Integration",
+    "description": "Production-grade integrations of GPT models into your existing product.",
+    "features": ["Function calling", "Streaming responses", "Cost monitoring"]
+  },
+  {
+    "id": "llm-apps",
+    "icon": "Brain",
+    "title": "LLM Applications",
+    "description": "Purpose-built applications powered by large language models, from prototype to production.",
+    "features": ["Prompt pipelines", "Evaluation harness", "Guardrails"]
+  },
+  {
+    "id": "ai-agents",
+    "icon": "Cpu",
+    "title": "AI Agent Development",
+    "description": "Autonomous agents that plan, call tools, and complete multi-step tasks reliably.",
+    "features": ["Tool-use design", "Memory & state", "Human-in-the-loop"]
+  },
+  {
+    "id": "database-design",
+    "icon": "Database",
+    "title": "Database Design",
+    "description": "Schemas and indexing strategies that stay fast as your data grows.",
+    "features": ["Normalization strategy", "Migrations", "Query optimization"]
+  },
+  {
+    "id": "deployment",
+    "icon": "Rocket",
+    "title": "Deployment & DevOps",
+    "description": "Reliable deploys with CI/CD, monitoring, and zero-downtime releases.",
+    "features": ["Vercel / AWS setup", "GitHub Actions", "Monitoring & alerts"]
+  }
+]

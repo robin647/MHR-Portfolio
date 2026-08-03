@@ -1,0 +1,69 @@
+[
+  {
+    "category": "Backend",
+    "items": [
+      { "name": "Python", "level": 95 },
+      { "name": "Django / DRF", "level": 92 },
+      { "name": "FastAPI", "level": 85 },
+      { "name": "Node.js", "level": 78 }
+    ]
+  },
+  {
+    "category": "Frontend",
+    "items": [
+      { "name": "React", "level": 90 },
+      { "name": "Next.js", "level": 88 },
+      { "name": "TypeScript", "level": 85 },
+      { "name": "Tailwind CSS", "level": 92 }
+    ]
+  },
+  {
+    "category": "AI",
+    "items": [
+      { "name": "OpenAI API", "level": 90 },
+      { "name": "LangChain", "level": 82 },
+      { "name": "RAG Pipelines", "level": 85 },
+      { "name": "Prompt Engineering", "level": 90 }
+    ]
+  },
+  {
+    "category": "Database",
+    "items": [
+      { "name": "PostgreSQL", "level": 90 },
+      { "name": "Redis", "level": 80 },
+      { "name": "MongoDB", "level": 72 }
+    ]
+  },
+  {
+    "category": "Cloud",
+    "items": [
+      { "name": "AWS (EC2, S3, RDS)", "level": 80 },
+      { "name": "Vercel", "level": 92 },
+      { "name": "Docker", "level": 83 }
+    ]
+  },
+  {
+    "category": "Automation",
+    "items": [
+      { "name": "n8n", "level": 88 },
+      { "name": "WhatsApp Cloud API", "level": 82 },
+      { "name": "Zapier / Make", "level": 75 }
+    ]
+  },
+  {
+    "category": "DevOps",
+    "items": [
+      { "name": "CI/CD (GitHub Actions)", "level": 80 },
+      { "name": "Nginx", "level": 74 },
+      { "name": "Linux Server Admin", "level": 78 }
+    ]
+  },
+  {
+    "category": "Tools",
+    "items": [
+      { "name": "Git / GitHub", "level": 93 },
+      { "name": "Figma", "level": 70 },
+      { "name": "Postman", "level": 88 }
+    ]
+  }
+]

@@ -1,0 +1,154 @@
+[
+  {
+    "slug": "orbit-ai-support-agent",
+    "title": "Orbit — AI Support Agent",
+    "description": "An LLM-powered support agent that resolves 70% of inbound tickets automatically by reading a company's docs and past tickets.",
+    "category": "AI",
+    "techStack": ["Python", "Django", "OpenAI API", "PostgreSQL", "React", "Redis"],
+    "thumbnail": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1200&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1200&q=80",
+      "https://images.unsplash.com/photo-1531746790731-6c087fecd65a?w=1200&q=80",
+      "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200&q=80"
+    ],
+    "github": "https://github.com/alexrahman-dev/orbit-ai-agent",
+    "liveDemo": "https://orbit-demo.vercel.app",
+    "status": "Live",
+    "features": [
+      "Retrieval-augmented answers grounded in company docs",
+      "Auto-escalation to a human when confidence is low",
+      "Ticket triage and priority tagging",
+      "Analytics dashboard for resolution rate"
+    ],
+    "client": "SaaS startup (NDA)",
+    "date": "2025-11",
+    "tags": ["AI", "LLM", "Django", "React"],
+    "featured": true
+  },
+  {
+    "slug": "flowbot-whatsapp-automation",
+    "title": "FlowBot — WhatsApp Automation Suite",
+    "description": "A n8n + WhatsApp Business API automation suite handling order confirmations, reminders, and support routing for an e-commerce brand.",
+    "category": "Automation",
+    "techStack": ["n8n", "Node.js", "WhatsApp Cloud API", "PostgreSQL"],
+    "thumbnail": "https://images.unsplash.com/photo-1611606063065-ee7946f0787a?w=1200&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1611606063065-ee7946f0787a?w=1200&q=80",
+      "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=1200&q=80"
+    ],
+    "github": "https://github.com/alexrahman-dev/flowbot",
+    "liveDemo": "",
+    "status": "Live",
+    "features": [
+      "Automated order + shipping notifications",
+      "Abandoned-cart WhatsApp recovery flow",
+      "Human handoff for complex queries",
+      "Admin dashboard for message templates"
+    ],
+    "client": "E-commerce brand",
+    "date": "2025-08",
+    "tags": ["Automation", "n8n", "WhatsApp"],
+    "featured": true
+  },
+  {
+    "slug": "ledgerly-fintech-dashboard",
+    "title": "Ledgerly — Finance Dashboard",
+    "description": "A full-stack expense and invoicing dashboard for freelancers with multi-currency support and automated PDF invoices.",
+    "category": "Full Stack",
+    "techStack": ["Next.js", "TypeScript", "Django REST Framework", "PostgreSQL", "Tailwind"],
+    "thumbnail": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80",
+      "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1200&q=80",
+      "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&q=80"
+    ],
+    "github": "https://github.com/alexrahman-dev/ledgerly",
+    "liveDemo": "https://ledgerly-demo.vercel.app",
+    "status": "Live",
+    "features": [
+      "Multi-currency invoicing with live FX rates",
+      "Recurring invoice automation",
+      "Expense categorization and reports",
+      "Stripe-ready payment links"
+    ],
+    "client": "Personal SaaS product",
+    "date": "2025-05",
+    "tags": ["Full Stack", "Next.js", "Django"],
+    "featured": true
+  },
+  {
+    "slug": "pixelmesh-portfolio-cms",
+    "title": "PixelMesh — Headless Portfolio CMS",
+    "description": "A lightweight headless CMS and API used to power portfolio sites for design agencies, built on Django REST Framework.",
+    "category": "Backend",
+    "techStack": ["Django REST Framework", "PostgreSQL", "Docker", "AWS S3"],
+    "thumbnail": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=1200&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=1200&q=80",
+      "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1200&q=80"
+    ],
+    "github": "https://github.com/alexrahman-dev/pixelmesh-cms",
+    "liveDemo": "",
+    "status": "In Progress",
+    "features": [
+      "Role-based content permissions",
+      "Media library with S3-backed uploads",
+      "Auto-generated OpenAPI docs",
+      "Webhook-based cache invalidation"
+    ],
+    "client": "Design agency",
+    "date": "2026-02",
+    "tags": ["Backend", "Django", "API"],
+    "featured": false
+  },
+  {
+    "slug": "nova-react-component-library",
+    "title": "Nova — React Component Library",
+    "description": "A themeable, accessible React + Tailwind component library used across three internal products at a fintech company.",
+    "category": "Frontend",
+    "techStack": ["React", "TypeScript", "Tailwind CSS", "Storybook", "Radix UI"],
+    "thumbnail": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=1200&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=1200&q=80",
+      "https://images.unsplash.com/photo-1581276879432-15e50529f34b?w=1200&q=80"
+    ],
+    "github": "https://github.com/alexrahman-dev/nova-ui",
+    "liveDemo": "https://nova-ui-storybook.vercel.app",
+    "status": "Live",
+    "features": [
+      "40+ accessible, themeable components",
+      "Dark/light token system",
+      "Full Storybook documentation",
+      "Automated visual regression tests"
+    ],
+    "client": "Fintech company",
+    "date": "2025-01",
+    "tags": ["Frontend", "React", "Design System"],
+    "featured": false
+  },
+  {
+    "slug": "churnsense-ml-model",
+    "title": "ChurnSense — Customer Churn Predictor",
+    "description": "A machine learning pipeline that scores subscription customers by churn risk and feeds a retention dashboard.",
+    "category": "ML",
+    "techStack": ["Python", "scikit-learn", "FastAPI", "Pandas", "PostgreSQL"],
+    "thumbnail": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80",
+      "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=1200&q=80"
+    ],
+    "github": "https://github.com/alexrahman-dev/churnsense",
+    "liveDemo": "",
+    "status": "Live",
+    "features": [
+      "Gradient-boosted churn risk model",
+      "FastAPI scoring endpoint (<80ms)",
+      "Weekly retraining pipeline",
+      "Retention-team dashboard integration"
+    ],
+    "client": "Subscription SaaS",
+    "date": "2024-10",
+    "tags": ["ML", "Python", "FastAPI"],
+    "featured": false
+  }
+]

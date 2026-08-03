@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Sarah Mitchell",
+    "role": "Founder, Orbit SaaS",
+    "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&q=80",
+    "quote": "Alex rebuilt our support workflow around an AI agent that now handles most of our tickets automatically. Communication was clear at every step and the handoff docs were spotless.",
+    "rating": 5
+  },
+  {
+    "name": "Daniel Kruger",
+    "role": "CTO, Ledgerly",
+    "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&q=80",
+    "quote": "We handed over a rough spec and got back a production-ready dashboard, on schedule, with tests and documentation. Exactly the kind of ownership you hope for in a contractor.",
+    "rating": 5
+  },
+  {
+    "name": "Priya Nair",
+    "role": "Operations Lead, Retail Brand",
+    "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200&q=80",
+    "quote": "The WhatsApp automation Alex built saves our team hours every week and our customers love the faster responses. Would hire again without hesitation.",
+    "rating": 5
+  },
+  {
+    "name": "Marcus Chen",
+    "role": "Product Manager, Fintech Co.",
+    "avatar": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=200&q=80",
+    "quote": "Solid engineering instincts and genuinely easy to work with across time zones. The component library Alex delivered is still our design system's backbone.",
+    "rating": 5
+  }
+]

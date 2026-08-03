@@ -1,0 +1,30 @@
+[
+  {
+    "title": "AWS Certified Solutions Architect – Associate",
+    "issuer": "Amazon Web Services",
+    "date": "2024",
+    "credentialUrl": "https://www.credly.com/",
+    "logo": "/images/certs/aws.svg"
+  },
+  {
+    "title": "Professional Django Developer",
+    "issuer": "Django Software Foundation Partner Program",
+    "date": "2023",
+    "credentialUrl": "https://www.credly.com/",
+    "logo": "/images/certs/django.svg"
+  },
+  {
+    "title": "Machine Learning Specialization",
+    "issuer": "DeepLearning.AI / Coursera",
+    "date": "2023",
+    "credentialUrl": "https://www.coursera.org/",
+    "logo": "/images/certs/coursera.svg"
+  },
+  {
+    "title": "Meta Front-End Developer Professional Certificate",
+    "issuer": "Meta / Coursera",
+    "date": "2022",
+    "credentialUrl": "https://www.coursera.org/",
+    "logo": "/images/certs/meta.svg"
+  }
+]
