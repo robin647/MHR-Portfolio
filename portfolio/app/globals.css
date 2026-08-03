@@ -19,6 +19,37 @@
     @apply bg-light text-[#14161C];
   }
 
+  /* The ink-muted / ink-dim / signal tokens are tuned for a dark background.
+     On light mode they need darker, higher-contrast values to stay legible. */
+  .light .text-ink-muted {
+    color: #4b5162;
+  }
+
+  .light .text-ink-dim {
+    color: #6b7280;
+  }
+
+  .light .text-ink {
+    color: #14161c;
+  }
+
+  .light .eyebrow,
+  .light .text-signal {
+    color: #0d9488;
+  }
+
+  .light .text-violet {
+    color: #7c3aed;
+  }
+
+  .light ::-webkit-scrollbar-track {
+    background: #f7f7f5;
+  }
+
+  .light ::-webkit-scrollbar-thumb {
+    background: #d8d8d4;
+  }
+
   ::selection {
     background: rgba(94, 234, 212, 0.25);
     color: #e8eaf0;

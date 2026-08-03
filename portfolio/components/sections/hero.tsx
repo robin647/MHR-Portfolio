@@ -115,65 +115,70 @@ export function Hero() {
           initial={{ opacity: 0, scale: 0.96 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.7, ease: "easeOut", delay: 0.15 }}
-          className="relative"
+          className="relative mx-auto w-full max-w-md pb-14 sm:pb-16 lg:mx-0"
         >
-          <div className="absolute -inset-6 -z-10 rounded-[2rem] bg-signal-gradient opacity-[0.12] blur-3xl" />
+          <div className="absolute -inset-8 -z-10 rounded-[2.5rem] bg-signal-gradient opacity-[0.15] blur-3xl" />
 
-          <div className="glass gradient-border animate-float overflow-hidden rounded-2xl shadow-card">
-            <div className="flex items-center gap-1.5 border-b border-white/5 bg-white/[0.02] px-4 py-3">
-              <span className="h-2.5 w-2.5 rounded-full bg-[#FF5F57]" />
-              <span className="h-2.5 w-2.5 rounded-full bg-[#FEBC2E]" />
-              <span className="h-2.5 w-2.5 rounded-full bg-[#28C840]" />
-              <span className="ml-3 font-mono text-[11px] text-ink-dim">
-                ~/{profile.initials.toLowerCase()}/whoami.sh
+          {/* Large profile photo — the primary visual */}
+          <div className="gradient-border glass relative aspect-[4/5] w-full animate-float overflow-hidden rounded-[2rem] shadow-card">
+            <Image
+              src={profile.profileImage}
+              alt={profile.name}
+              fill
+              sizes="(max-width: 1024px) 85vw, 440px"
+              className="object-cover"
+              priority
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/0 to-black/10" />
+
+            <div className="glass absolute left-4 top-4 flex items-center gap-2 rounded-full px-3 py-1.5">
+              <span className="relative flex h-1.5 w-1.5">
+                <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-signal opacity-75" />
+                <span className="relative inline-flex h-1.5 w-1.5 rounded-full bg-signal" />
               </span>
+              <span className="font-mono text-[11px] text-white">{profile.location}</span>
             </div>
-            <div className="space-y-3 p-6 font-mono text-[13px] leading-relaxed text-ink-muted">
-              <p>
-                <span className="text-signal">$</span> whoami
+
+            <div className="absolute inset-x-5 bottom-5">
+              <p className="font-display text-lg font-semibold text-white drop-shadow-sm">
+                {profile.name}
               </p>
-              <p className="text-ink">{profile.name}</p>
-              <p>
-                <span className="text-signal">$</span> role --current
+              <p className="font-mono text-xs text-white/70">
+                {profile.title} · {profile.timezone}
               </p>
-              <p className="text-ink">
-                {typed}
-                <span className="animate-blink text-signal">▌</span>
-              </p>
-              <p>
-                <span className="text-signal">$</span> stack --top
-              </p>
-              <p className="flex flex-wrap gap-1.5 pt-1">
-                {["Python", "Django", "React", "Next.js", "OpenAI"].map((t) => (
-                  <span
-                    key={t}
-                    className="rounded-md border border-white/10 bg-white/[0.04] px-2 py-0.5 text-[11px] text-violet"
-                  >
-                    {t}
-                  </span>
-                ))}
-              </p>
-              <p className="pt-2">
-                <span className="text-signal">$</span> status
-              </p>
-              <p className="text-signal-soft">✓ open for new projects</p>
             </div>
           </div>
 
-          <div className="glass absolute -bottom-6 -left-6 hidden items-center gap-3 rounded-xl p-3 shadow-card sm:flex">
-            <div className="relative h-9 w-9 overflow-hidden rounded-full bg-white/10">
-              <Image
-                src={profile.profileImage}
-                alt={profile.name}
-                fill
-                sizes="36px"
-                className="object-cover"
-              />
+          {/* Mini terminal — floats as an accent over the photo's corner */}
+          <div className="glass gradient-border relative -mt-10 mx-5 rounded-2xl p-4 shadow-card sm:absolute sm:-bottom-2 sm:-right-8 sm:mx-0 sm:mt-0 sm:w-64">
+            <div className="mb-3 flex items-center gap-1.5 border-b border-white/5 pb-3">
+              <span className="h-2 w-2 rounded-full bg-[#FF5F57]" />
+              <span className="h-2 w-2 rounded-full bg-[#FEBC2E]" />
+              <span className="h-2 w-2 rounded-full bg-[#28C840]" />
+              <span className="ml-2 truncate font-mono text-[10px] text-ink-dim">
+                ~/{profile.initials.toLowerCase()}/role.sh
+              </span>
             </div>
-            <div>
-              <p className="text-xs font-medium text-ink">{profile.location}</p>
-              <p className="font-mono text-[10px] text-ink-dim">{profile.timezone}</p>
-            </div>
+            <p className="font-mono text-[12px] text-ink-muted">
+              <span className="text-signal">$</span> role --current
+            </p>
+            <p className="mt-1 min-h-[1.2em] font-mono text-[13px] text-ink">
+              {typed}
+              <span className="animate-blink text-signal">▌</span>
+            </p>
+            <p className="mt-3 flex flex-wrap gap-1.5">
+              {["Python", "Django", "React", "OpenAI"].map((t) => (
+                <span
+                  key={t}
+                  className="rounded-md border border-white/10 bg-white/[0.04] px-2 py-0.5 text-[10px] text-violet"
+                >
+                  {t}
+                </span>
+              ))}
+            </p>
+            <p className="mt-3 font-mono text-[11px] text-signal-soft">
+              ✓ open for new projects
+            </p>
           </div>
         </motion.div>
       </div>
