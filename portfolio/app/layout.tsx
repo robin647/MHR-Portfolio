@@ -10,7 +10,6 @@ import { BackToTop } from "@/components/shared/back-to-top";
 import { CommandPalette } from "@/components/shared/command-palette";
 import { Navbar } from "@/components/layout/navbar";
 import { Footer } from "@/components/layout/footer";
-// @ts-expect-error Next.js handles global CSS imports for the app router
 import "./globals.css";
 
 const display = Space_Grotesk({

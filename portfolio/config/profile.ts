@@ -4,7 +4,7 @@
 // ─────────────────────────────────────────────────────────
 
 export const profile = {
-  name: "Md. Robin Hossain",
+  name: "Robin Hossain",
   initials: "MHRobin",
   title: "Full-Stack & AI Enginer",
   roles: [
