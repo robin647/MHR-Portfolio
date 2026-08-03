@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 import projects from "@/data/projects.json";
 
-const siteUrl = "https://mhr-portfolio-tau.vercel.app/";
+const siteUrl = "https://mhr-portfolio-git-main-mhrobin471-5610s-projects.vercel.app/";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const projectRoutes = (projects as { slug: string }[]).map((p) => ({

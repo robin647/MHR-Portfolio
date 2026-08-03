@@ -24,7 +24,7 @@ const mono = JetBrains_Mono({
   weight: ["400", "500"],
 });
 
-const siteUrl = "https://mhr-portfolio-tau.vercel.app/";
+const siteUrl = "https://mhr-portfolio-git-main-mhrobin471-5610s-projects.vercel.app/";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
